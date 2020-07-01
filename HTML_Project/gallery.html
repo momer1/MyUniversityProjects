@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo site</title>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    
+    <!---Stuff for lightbox--->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- concatenated -->
+    <script type="text/javascript" src="easybox/distrib.min.js"></script>
+
+    <!-- seperate files -->
+    <script type="text/javascript" src="easybox/easybox.min.js"></script>
+    <script type="text/javascript" src="easybox/handlers.min.js"></script>
+    <script type="text/javascript" src="easybox/extras/autoload.min.js"></script>
+    
+    <link rel="stylesheet" href="easybox/styles/default/easybox.min.css" type="text/css" media="screen" />
+    
+</head>
+<body>
+    <div id="top_bar">  
+        <header>
+            <h1>Awesome Phone Company</h1>
+        </header>
+        <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="features.html">Features</a></li>
+               <li><a href="gallery.html">Looks</a></li>
+               <li><a href="spec.html">Specification</a></li>
+               <li id="preorder"><a href="preorder.html">Pre-order Now</a></li>
+           </ul>
+        </nav>
+    </div>
+    <section id="middle_pane">
+        <img src="images/phone_icon_white.png">
+        <h1>Awesome Phone 1</h1>
+        <h2>What a beautiful thing. Just look at it.</h2>
+    </section> 
+   <article>
+           
+        <h4>Curved corners. Metal. Shiny bits. Colours.</h4>
+        <h5>These are what make a beautiful device</h5>
+        
+        <section class="gallery_main">
+            <ul id="gallery">
+                <li><a href="images/phone.png" title="Wow" class="lightbox" data-group="set"><img class="thumb" src="images/phone.png" /></a></li>
+                <li><a href="images/phone2.png" title="Such good" class="lightbox" data-group="set"><img class="thumb" src="images/phone2.png" /></a></li>
+                <li><a href="images/phone3.jpg" title="Shiny" class="lightbox" data-group="set"><img class="thumb" src="images/phone3.jpg" /></a></li>
+                <li><a href="images/phone4.jpg" title="Amazing" class="lightbox" data-group="set"><img class="thumb" src="images/phone4.jpg" /></a></li>
+            </ul>
+        </section>
+        
+       <section class="free_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque accusamus, labore delectus minima mollitia aliquid beatae voluptatem earum suscipit nesciunt, neque exercitationem impedit voluptates ea veritatis architecto eius magnam.</p>
+        </section>
+        
+        <hr>
+        
+        <h4>And a video too</h4>
+        <h5>Showing off the phone some more</h5>
+        <section class="gallery_main">
+            <video controls>
+                <source src="video/demo_video.mp4" type="video/mp4">
+            </video>           
+       </section>
+
+           <hr>
+           <section id="quote">
+              <h3>"The Awesome Phone 1 is more beautiful than my wife."</h3>
+              <p>Gadget Review Magazine</p>
+           </section>
+          <hr>
+   </article>
+   <footer>
+       <ul>
+           <li><a href="">About</a></li>
+           <li><a href="">Privacy</a></li>
+           <li><a href="">Terms</a></li>
+           <li><a href="">Contact Us</a></li>
+       </ul> 
+       <ul>
+           <li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a></li>
+           <li><a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter"></a></li>
+       </ul>
+   </footer>
+    
+</body>
+</html>
